@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    background: rgb(212,46,180);
+background: radial-gradient(circle, rgba(212,46,180,0.6475840336134453) 35%, rgba(108,44,150,1) 100%);
+background-image: url(milad-fakurian-E8Ufcyxz514-unsplash.jpg);
+background-size: cover;
+}
+.clock{
+    background-color: blueviolet;
+    height: 25vw;
+    width: 60%;
+background: rgba(0,0,0, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+display: flex;
+flex-direction: column;
+color: white;
+text-shadow:rgb(32, 28, 28) 7px 5px;
+
+}
+.clock-time{
+background: rgba(173, 153, 153, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.5px);
+-webkit-backdrop-filter: blur(7.5px);
+    width: 60%;
+    height: 30%;
+    margin-left: 20%;
+    margin-top: 7%;
+    font-size: 5vw;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    margin-top: 5vw;
+   
+
+}
+.clock-date{
+   background: rgba(173, 153, 153, 0.23);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(7.5px);
+   -webkit-backdrop-filter: blur(7.5px);
+       width: 55%;
+       height: 20%;
+       margin-left: 20%;
+       margin-top: 5%;
+       font-size: 4vw;
+       align-items: center;
+       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+       overflow: hidden;
+       border: none;
+   padding-left: 4vw;
+   }
